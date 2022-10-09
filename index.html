@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <style>
+        html {
+            font-family: Poppins, sans-serif;
+        }
+
+        #output {
+            width: 100ch;
+            margin: auto;
+        }
+
+        .question-box {
+            background-color: rgb(141, 141, 141);
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .information {
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+
+        .question {
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="question-type">Question Type</label>
+    <input name="question-type">
+    <button onclick="get_question()">Submit</button>
+    <div id="output"></div>
+</body>
+
+<script>
+    function get_question() {
+        document.getElementById("output").innerHTML = ""
+        let question_type = document.getElementsByName('question-type')[0].value
+        let data = httpGet('/api?q=' + question_type)
+        data = JSON.parse(data)
+        console.log(data)
+        let questions = data["questions"]
+        let exams = data["exams"]
+        for (let i = 0; i < questions.length; i += 1) {
+            let question = questions[i]
+            var exam = exams.filter(obj => {
+                return obj.id === question["exam_id"]
+            })[0]
+            place_question(question, exam)
+        }
+
+        // let re = new RegExp(question_type, 'g');
+        // document.body.innerHTML = document.body.innerHTML.replace(re,"<span>"+question_type+"</span>");
+    }
+
+    function place_question(question_data, exam_data) {
+        console.log(question_data)
+        let div = document.createElement('div')
+        div.classList.add("question-box")
+
+        let information = document.createElement('a')
+        information.href = exam_data['url']
+        information.target = "_blank"
+        let text_information = document.createTextNode(exam_data['level'] + ": " + exam_data['year'] + "-" + exam_data['version'] + " opgave " + question_data['number']);
+        information.appendChild(text_information)
+        div.appendChild(information)
+        information.classList.add("information")
+
+        let question = document.createElement('p')
+        let text_question = document.createTextNode(question_data['question']);
+        question.appendChild(text_question)
+        div.appendChild(question)
+        question.classList.add("question")
+
+        document.getElementById("output").appendChild(div)
+    }
+
+    function httpGet(theUrl) {
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET", theUrl, false); // false for synchronous request
+        xmlHttp.send(null);
+        return xmlHttp.responseText;
+    }
+</script>
+
+</html>

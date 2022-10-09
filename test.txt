@@ -1,4 +1,4 @@
-Examen VWO 
+{webpage 1}Examen VWO 
 2021  
 scheikunde 
 Bij dit examen hoort een uitwerkbijlage. 
@@ -17,7 +17,7 @@ redenen, dan worden alleen de eerste twee in de beoordeling meege teld.
  VW-1028-a-21-2-otijdvak 2 
 dinsdag 15 juni 
 13.30 - 16.30 uur
-VW-1028-a-o 2 / 13 lees verder ►►►Tenzij anders vermeld, is er sprake van standaardomstandigheden: 
+ {webpage 2}VW-1028-a-o 2 / 13 lees verder ►►►Tenzij anders vermeld, is er sprake van standaardomstandigheden: 
 T = 298 K en p = p0. 
 Waterstofauto’s die methaanzuur tanken 
 Omdat de opslag van waterstof een probleem is, wordt onderzoek gedaan naar manieren om waterstof om te zetten tot stoffen met een hogere dichtheid. Een voorbeeld van zo’n stof is methaanzuur (
@@ -32,16 +32,16 @@ Een Hyundai-waterstofauto kan 594 km rijden op 5,64 kg waterstof. De dichtheid v
 4p 3 Bereken het volume in L methaanzuur dat minstens nodig is om 5 ,64 kg waterstof te kunnen produceren. Geef de uitkomst in het juiste aantal significante cijfers. Twee onderzoeksgroepen hebben een katalysator ontwikkeld die de directe omzetting van 
 H2 en CO2 tot methaanzuur katalyseert. Omdat deze omzetting in basisch milieu optreedt, wordt er geen methaanzuur gevormd, maar onder andere het zuurrest-ion van methaanzuur. 
 2p 4 Geef de reactievergelijking van deze omzetting. 
-VW-1028-a-o 3 / 13 lees verder ►►►Afhankelijk van de pH komen in oplossingen van de gebruikte katalysator voornamelijk deeltjes 
+ {webpage 3}VW-1028-a-o 3 / 13 lees verder ►►►Afhankelijk van de pH komen in oplossingen van de gebruikte katalysator voornamelijk deeltjes 
 [H4kat]4+ of deeltjes [kat]0 voor. In de figuur is het evenwicht tussen deze deeltjes weergegeven met structuurformules. figuur 
 In elk katalysatordeeltje zijn twee iridium-ionen door elektrostatische interacties gebonden aan enkele omringende deeltjes. Deze inter acties zijn in de figuur weergegeven met stippellijnen. In de figuur zijn alle formele ladingen aangegeven, behalve de lading van de iridium-ionen. Alle iridium-ionen in de figuur hebben dezelfde lading. 
 2p 5 Leg uit welke lading een iridium-ion in de figuur heeft. Op de uitwerkbijlage is een Lewisstructuur van het deeltje 
 X– weergegeven. Een andere grensstructuur is onvolledig weergegeven. 
 2p 6 Maak op de uitwerkbijlage de rechter grensstructuur van het deeltje X– compleet. Geef de formele lading(en) aan.D e  
 C-atomen in deze grensstructuur moeten voldoen aan deoktetregel.De gebruikte katalysator is ook werkzaam bij de omzetting van methaanzuur tot 
-H2 en CO2 in een auto. Deze omz etting treedt alleen op bij lage pH. 
+H2 en CO2 in een auto. Deze omzetting treedt alleen op bij lage pH. 
 2p 7 Leg uit welk van beide katalysatordeeltjes uit de figuur overw egend aanwezig is bij lage pH. 
-VW-1028-a-o 4 / 13 lees verder ►►►Retinal in het oog 
+ {webpage 4}VW-1028-a-o 4 / 13 lees verder ►►►Retinal in het oog 
 In de cellen van het netvlies bevindt zich het eiwit opsine. In een holte van het opsine-molecuul is een molecuul retinal covalent gebonden aan de restgroep van de aminozuureenheid lysine. Bij absorptie van lichtenergie treedt in retinal op één plaats in het molecuul 
 cis/trans -isomerisatie op. Als gevolg van deze verandering ontstaat uiteindelijk een signaal in de oogzenuw. In figuur 1 is de structuurformule van retinal weergegeven. Hierbij is informatie over stereo-isomerie in retinal weggelaten. figuur 1 
 In een retinal-molecuul is cis/trans -isomerisatie op een aantal plaatsen mogelijk. De biochemicus George Wald (Nobelprijs 1967) heeft ontdekt dat uitsluitend de dubbele binding tussen 
@@ -54,20 +54,20 @@ In het molecuul van stof A is cis-/trans -isomerisatie van de dubbele binding tu
 C11 en C12 onmogelijk. Dit molecuul kan worden opgevat als een molecuul retinal waarin onder andere een extra koolstofatoom in de structuur is opgenomen. 
 3p 9 Voer de volgende opdrachten uit: Geef de nummers van de koolstofatomen van retinal waartussen ditextra koolstofatoom is opgenomen.Leg uit of stof A is afgeleid van 11-
 cis-retinal of van 11- trans -retinal.
-VW-1028-a-o 5 / 13 lees verder ►►►In figuur 2 is weergegeven hoe retinal is gebonden aan een rest groep van de peptideketen van opsine. Na de isomerisatie wordt retinal losgekoppeld van opsine. In figuur 2 is de eerste stap van het loskoppelen weergegeven. In deze eerste stap spelen twee watermoleculen een belangrijke rol. figuur 2 
+ {webpage 5}VW-1028-a-o 5 / 13 lees verder ►►►In figuur 2 is weergegeven hoe retinal is gebonden aan een rest groep van de peptideketen van opsine. Na de isomerisatie wordt retinal losgekoppeld van opsine. In figuur 2 is de eerste stap van het loskoppelen weergegeven. In deze eerste stap spelen twee watermoleculen een belangrijke rol. figuur 2 
 In de holte van opsine is tegenover het gebonden retinal een restgroep van 
 Glu aanwezig. Door de afstanden en aanwezige ladingen in de holte zijn de watermoleculen links van de pijl op een specifieke wijz e georiënteerd ten opzichte van de restgroepen in opsine. Hierbij spelen waterstofbruggen en nog een andere soort binding een rol. 
 2p 10 Leg uit welke andere soort binding links van de pijl nog meer zorgt voor de oriëntatie van de watermoleculen ten opzichte van de restgroepen in opsine. De na stap 1 weergegeven watermoleculen blijven aanwezig in de holte van opsine. Ze zijn hierbij onder andere met waterstofbruggen gebonden aan restgroepen van de peptideketen. 
 1p 11 Teken op de uitwerkbijlage een waterstofbrug tussen een molecu ul water en een van de weergegeven restgroepen van de peptideketen. 
-VW-1028-a-o 6 / 13 lees verder ►►►
+ {webpage 6}VW-1028-a-o 6 / 13 lees verder ►►►
 Opsine bevindt zich deels in het celmembraan. In figuur 3 is vereenvoudigd weergegeven hoe opsine zich volgens onderzoekers in het celmembraan bevindt. Voor de duidelijkheid is een deel van het celmembraan lichter weergegeven. figuur 3 
 De onderzoekers hebben de modelvoorstelling onder andere gebaseerd op de hydropathie-index. Deze index wordt modelmatig berekend en geeft aan in hoeverre een aminozuureenheid in een peptideketen hydrofiel of hydrofoob is. Hoe hoger de hydropathie-index, hoe meer de hydrofobe eigenschappen overheersen. In figuur 4 is de hydropathie-index van alle aminozuureenheden van opsine weergegeven.  figuur 4 
 In figuur 3 zijn twee gebieden uit opsine vetgedrukt en aangedu id met de letters X en Y. Deze gebieden bevatten een aantal aminozuureenheden. De nummers van deze aminozuureenheden kunnen met behulp van figuur 4 worden geschat. 
 2p 12 Geef met behulp van figuur 3 en figuur 4 een schatting van de nummers van de aminozuureenheden die horen bij de gebieden X en Y. Noteer je antwoord als volgt: gebied X: nummers … t/m …gebied Y: nummers … t/m …
-VW-1028-a-o 7 / 13 lees verder ►►►In het menselijk oog komen drie verschillende varianten van opsine voor. De peptideketen van elke opsine heeft een iets andere ruimtelijke bouw. Hierdoor treedt de isomerisatie van retinal op bij verschillende kleuren licht, zoals rood en groen. De genen voor de ‘rode’ en ‘groene’ opsine zijn voor een groot deel aan elkaar gelijk.  In figuur 5 is een gedeelte van het coderende DNA van beide var ianten weergegeven vanaf de base met nummer 826. De genetische code van beide opsines begint hierbij bij base nummer 1. Het startcodon codeert voor de aminozuureenheid met nummer 1. figuur 5 
+ {webpage 7}VW-1028-a-o 7 / 13 lees verder ►►►In het menselijk oog komen drie verschillende varianten van opsine voor. De peptideketen van elke opsine heeft een iets andere ruimtelijke bouw. Hierdoor treedt de isomerisatie van retinal op bij verschillende kleuren licht, zoals rood en groen. De genen voor de ‘rode’ en ‘groene’ opsine zijn voor een groot deel aan elkaar gelijk.  In figuur 5 is een gedeelte van het coderende DNA van beide var ianten weergegeven vanaf de base met nummer 826. De genetische code van beide opsines begint hierbij bij base nummer 1. Het startcodon codeert voor de aminozuureenheid met nummer 1. figuur 5 
 Uit de basenvolgordes in figuur 5 valt het nummer af te leiden van de eerste aminozuureenheid die in ‘rode’ opsine anders is dan in ‘groene’ opsine. 
 2p 13 Voer de volgende opdrachten uit: Geef het nummer van de eerste aminozuureenheid die in ‘rode’ opsineanders is dan in ‘groene’ opsine.Geef aan welke aminozuureenheid zich op die plaats in depeptideketen van ‘rode’ opsine bevindt en welke zich in depeptideketen van ‘groene’ opsine bevindt.
-VW-1028-a-o 8 / 13 lees verder ►►►Slim gebruik van glycerol 
+ {webpage 8}VW-1028-a-o 8 / 13 lees verder ►►►Slim gebruik van glycerol 
 Biodiesel wordt geproduceerd door methanol toe te voegen aan plantaardige olie of dierlijk vet. Hierbij treedt een reactie op waarbij esters van methanol en vetzuren worden gevormd. Tevens wordt hierbij glycerol  (propaan-1,2,3-triol) gevormd. 
 3p 14 Geef de reactievergelijking van de vorming van biodiesel uit v et. Gebruik structuurformules.Noteer de koolwaterstofrest van een vetzuur als 
 CxHy. Door de toename van de biodieselproductie is een overschot aan glycerol op de wereldmarkt ontstaan. Dit heeft geleid tot onderzoek naar  de omzetting van glycerol met behulp van micro-organismen tot waardevolle chemicaliën. Een van deze chemicaliën is butaandizuur. De bacterie Anaerobiospirillum succiniciproducens kan onder zuurstofloze omstandigheden glycerol omzetten tot butaandizuur (
@@ -77,7 +77,7 @@ C3H8O3  +  CO2    C4H6O4  +  H2O  (reactie 1) De bacterie kan ook glucose omz
 –1 glycerol en 1,25 g L–1 glucose werd uiteindelijk 7,3 g L
 –1 butaandizuur geproduceerd.  
 4p 16 Bereken het rendement van deze vorming van butaandizuur. Neem aan dat alle beginstof geheel werd omgezet.Gebruik gegevens van reactie 1 en 2.
-VW-1028-a-o 9 / 13 lees verder ►►►Reacties 1 en 2 zijn beide exotherm. De vrijgekomen energie wor dt door de bacteriën gebruikt voor groei. De vormingswarmte van butaandizuur is –9,40·10
+ {webpage 9}VW-1028-a-o 9 / 13 lees verder ►►►Reacties 1 en 2 zijn beide exotherm. De vrijgekomen energie wor dt door de bacteriën gebruikt voor groei. De vormingswarmte van butaandizuur is –9,40·10
 5 J mol–1 en die van glycerol is –6,64·10
 5 J mol–1. De reactiewarmte van reactie 2 is –1,82·10
 5 J per mol butaandizuur. Bij de gebruikte omstandigheden wordt 85% van het butaandizuur gevormd uit reactie 1. 
@@ -86,7 +86,7 @@ VW-1028-a-o 9 / 13 lees verder ►►►Reacties 1 en 2 zijn beide exotherm. De 
 NaOH  er nodig was om de pH constant te houden.  Bij de gebruikte pH was het door de bacteriën gevormde butaandizuur (
 C4H6O4) voor 87% omgezet tot C4H4O42‒ en voor 13% tot C4H5O4‒. In het experiment had in totaal 7,50 mL 2,00 M natronloog gereageerd. 
 4p 19 Bereken de massa in g glycerol die is omgezet. Neem aan dat het butaandizuur uitsluitend via reactie 1 wordtgevormd.Geef de uitkomst in het juiste aantal significante cijfers.
-VW-1028-a-o 10 / 13 lees verder ►►►Doerian, een delicatesse? 
+ {webpage 10}VW-1028-a-o 10 / 13 lees verder ►►►Doerian, een delicatesse? 
 Doerian is een vrucht met een kenmerkende geur. De een houdt er van terwijl de ander de geur weerzinwekkend vindt. Uit onderzoek is  gebleken dat in doerians vooral twee verbindingen geurbepalend zijn: ESET en EMB. Als een van beide verbindingen ontbreekt, is de kenmerkend e doerian-geur er niet. De structuurformules van deze verbindingen zijn weergegeven in figuur 1. figuur 1 
 Gebleken is dat van ESET twee stereo-isomeren voorkomen in doerians.  
 1p 20 Teken op de uitwerkbijlage de twee stereo-isomeren van ESET. Uit eerder onderzoek was de aanwezigheid van een groot aantal stoffen in doerians al bekend. Om de gehaltes van deze stoffen te kunnen b epalen, zijn van deze stoffen analoga gemaakt. Dit zijn stoffen waarbij in de moleculen een of meer atomen zijn vervangen door bijvoorbeeld 
@@ -94,17 +94,17 @@ Gebleken is dat van ESET twee stereo-isomeren voorkomen in doerians.
 12C-atomen vervangen door 13C-atomen. De gevormde stof wordt in het vervolg aangeduid met ESET-13. ESET-13 werd gemaakt door gebruik te maken van ethanal, waarin twee 
 13C-atomen aanwezig zijn. In figuur 2 zijn de hierbij verlopende reacties weergegeven. figuur 2 
 
-VW-1028-a-o 11 / 13 lees verder ►►►In stap 2 wordt uitsluitend deeltje X gevormd. Het mechanisme v an de reactie in stap 2 is op de uitwerkbijlage onvolledig weergegeven. 
+ {webpage 11}VW-1028-a-o 11 / 13 lees verder ►►►In stap 2 wordt uitsluitend deeltje X gevormd. Het mechanisme v an de reactie in stap 2 is op de uitwerkbijlage onvolledig weergegeven. 
 3p 21 Maak op de uitwerkbijlage het mechanisme van de reactie in sta p 2 compleet. Geef rechts van de pijl de structuurformule van deeltje X.Geef in alle deeltjes de niet-bindende elektronenparen aan.Geef met pijlen weer hoe elektronenparen worden verplaatst tijdens deze reactie.Geef formele ladingen weer wanneer die voorkomen.Van de weergegeven omzettingen in figuur 2 is stap 2 de snelheidsbepalende stap. Van stap 2 en 3 zijn drie mogelijke energiediagrammen weergegeven in figuur 3. figuur 3 
 2p 22 Leg uit welk van de diagrammen (P, Q of R) in overeenstemming is met de gegevens over de relatieve snelheden van stap 2 en stap 3 in figuur 2. 
-VW-1028-a-o 12 / 13 lees verder ►►►Na de reacties die zijn weergegeven in figuur 2, is uit het reactiemengsel een stof geïsoleerd met hetzelfde kookpunt als dat van ESET. Om te onderzoeken of deze stof inderdaad ESET-13 is, is van de stof een massaspectrum genomen. Bij de gebruikte techniek worden 
+ {webpage 12}VW-1028-a-o 12 / 13 lees verder ►►►Na de reacties die zijn weergegeven in figuur 2, is uit het reactiemengsel een stof geïsoleerd met hetzelfde kookpunt als dat van ESET. Om te onderzoeken of deze stof inderdaad ESET-13 is, is van de stof een massaspectrum genomen. Bij de gebruikte techniek worden 
 H+-ionen opgenomen, waarbij het molecuul-ion [
 M–H]+ wordt gevormd. Uit het molecuul-ion worden vervolgens fragmenten gevormd. In figuur 4 is het massaspectrum van ESET-13 weergegeven. figuur 4 
 De piek bij m/z = 91 kan worden verklaard uit het afsplitsen van een neutraal deeltje van het molecuul-ion. 
 2p 23 Leg uit welk neutraal deeltje is afgesplitst. In het massaspectrum van ESET-13 komt een piek voor bij 
 m/z = 63. Deze piek wordt veroorzaakt door een fragment dat is ontstaan na het verbreken van één atoombinding in ESET-13.  
 2p 24 Leg uit welke atoombinding dat is. Om van alle aanwezige stoffen het gehalte te kunnen bepalen, wordt doerian-pulp enkele malen geëxtraheerd. Na de extracties wordt het verkregen mengsel met behulp van GC-MS geanalyseerd. Dat houdt in dat het mengsel met behulp van gaschromatografie (GC) wordt gescheiden, waarna elke afzonderlijke stof in een massaspectrometer (MS) wordt geleid. 
-VW-1028-a-o 13 / 13 lees verder ►►►Van twee doerians is het gehalte EMB bepaald met behulp van gaschromatografie. Ook is met proefpersonen onderzocht welke doerian een sterkere geur had. Een sterkere geur wordt vooral bepaald door een hoger gehalte van EMB. Bij dit onderzoek is een interne standaard gebruikt. De signaal sterkte van de interne standaard is recht evenredig met het ingespoten volume. Wanneer in het onderzoek verschillende volumes zijn ingespoten, kunnen zo de resultaten toch met elkaar worden vergeleken. In de tabel zijn de meetgegevens van beide doerians weergegeven.  tabel signaalsterkte interne standaard EMB 
+ {webpage 13}VW-1028-a-o 13 / 13 lees verder ►►►Van twee doerians is het gehalte EMB bepaald met behulp van gaschromatografie. Ook is met proefpersonen onderzocht welke doerian een sterkere geur had. Een sterkere geur wordt vooral bepaald door een hoger gehalte van EMB. Bij dit onderzoek is een interne standaard gebruikt. De signaal sterkte van de interne standaard is recht evenredig met het ingespoten volume. Wanneer in het onderzoek verschillende volumes zijn ingespoten, kunnen zo de resultaten toch met elkaar worden vergeleken. In de tabel zijn de meetgegevens van beide doerians weergegeven.  tabel signaalsterkte interne standaard EMB 
 doerian 1 520 7250 
 doerian 2 320 5610 
 2p 25 Leg met behulp van de tabel uit welke doerian een sterkere geur heeft. Als interne standaard is een oplossing van thiofeen bereid met een molariteit van 1,20∙10
@@ -112,3 +112,4 @@ doerian 2 320 5610
 –1. Bij de gebruikte gaschromatograaf is de signaalsterkte recht evenredig aan de hoeveelheid stof. 
 2p 26 Bereken het gehalte EMB in de pulp in g L–1. 
 einde  
+ {webpage 14}

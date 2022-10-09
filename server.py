@@ -16,7 +16,7 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-type", "text/html")
             self.end_headers()
-            with open("D:/Programmeren/Hulpprogramma/Scheikunde/Vragen_generator/index.html") as file:
+            with open("D:/Programmeren/Hulpprogramma/Scheikunde/Vragen_generator/index.html", encoding='utf-8') as file:
                 self.wfile.write(bytes(file.read(), 'utf-8'))
         elif self.path[:4] == '/api':
             self.send_response(200)

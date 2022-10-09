@@ -1,3 +1,4 @@
+from ast import arg
 import PyPDF2
 import requests
 from io import BytesIO
@@ -110,16 +111,17 @@ class Exam:
         content = re.sub(r'([A-Z]*-){0,1}([a-z0-9-]+) ([0-9 \/]+?) [lL]ees verder( ►►►){0,1}', '\n', content)
         
         self.questions = []
-        matches = re.finditer(r'\n[0-9]p ([0-9]+)([\s\S]+?[\.?]) *(?=(  |\n *\n|\n[0-9]p|\Z))', content)
+        # matches = re.finditer(r'\n[0-9]p ([0-9]+)([\s\S]+?[\.?!]) *?(?=(  |\n *\n|\n[0-9]p|\Z))', content)
+        matches = re.finditer(r'\n[0-9]p ([0-9]+)([\s\S]+?) *?(?=(\n *\n|\n[0-9]p|\Z))', content)
         parsed_content = content
         page_number = 1
         skipped_questions = 0
         for match in matches:
             index = parsed_content.find(match.group())
             context = parsed_content[:index]
-            page_number_match = re.search(r"{webpage (\d+)}", context)
+            page_number_match = re.findall(r"{webpage (\d+)}", context)
             if page_number_match:
-                page_number = int(page_number_match[1])
+                page_number = int(page_number_match[-1])
             parsed_content = parsed_content[index+len(match.group()):]
             question_number = int(match[1])
             question = match[2].strip()
@@ -145,7 +147,7 @@ class Exams:
     def get_questions_about(self, query: str) -> list[Question]:
         conn = sqlite3.connect(Database.location)
         subjects = query.split(" ")
-        sql = f'SELECT id FROM question WHERE {(" OR ".join("question LIKE ?" for x in range(len(subjects))))} OR {(" OR ".join("context LIKE ?" for x in range(len(subjects))))} ORDER BY RANDOM() LIMIT 25'
+        sql = f'SELECT id FROM question WHERE {(" AND ".join("(question LIKE ? OR context LIKE ?)" for x in range(len(subjects))))} ORDER BY RANDOM() LIMIT 25'
         arguments = []
         for subject in subjects:
             arguments.append(f'%{subject}%')
@@ -206,9 +208,9 @@ def test():
     print(count)
 
 if __name__ == '__main__':
-    reset()
-    # a = Exam.create_new('https://newsroom.nvon.nl/files/default/skv162vb.pdf', 'vwo', 2000, 1)
-    # a.find_questions()
+    # reset()
+    a = Exam.create_new('https://newsroom.nvon.nl/files/default/nask2tl171vb.pdf', 'test', 0, 0)
+    a.find_questions()
     # print(a.questions)
     # nvon_exams = NvonExams()
     # exams = nvon_exams.find_all_examens()

@@ -94,8 +94,22 @@
         output.innerHTML = "Loading..."
 
         let search_query = document.getElementsByName('input-field')[0].value
-        let data = httpGet('/api?q=' + search_query)
-        data = JSON.parse(data)
+        let url = '/api?q=' + search_query
+        var xmlHttp = new XMLHttpRequest();
+        xmlHttp.onreadystatechange = function() { 
+            if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                place_questions(xmlHttp.responseText, search_query);
+            else if (xmlHttp.status == 404)
+                output.innerHTML = "Server responded with 404"
+            else if (xmlHttp.readyState == 4 && xmlHttp.status == 0) 
+                output.innerHTML = "Server didn't respond"
+        }
+        xmlHttp.open("GET", url, true);
+        xmlHttp.send(null);
+    }
+    
+    function place_questions(data_string, search_query) {
+        const data = JSON.parse(data_string)
         console.log(data)
         let questions = data["questions"]
         let exams = data["exams"]
@@ -111,9 +125,6 @@
         if (questions.length == 0){
             output.innerHTML = "No questions where found!"
         }
-
-        // let re = new RegExp(question_type, 'g');
-        // document.body.innerHTML = document.body.innerHTML.replace(re,"<span>"+question_type+"</span>");
     }
 
     function place_question(question_data, exam_data, search_query) {
@@ -134,20 +145,13 @@
         let text_question = document.createTextNode(question_data['question']);
         question.appendChild(text_question)
 
-        let re = new RegExp(search_query, 'g');
-        question.innerHTML = question.innerHTML.replace(re,"<u>"+search_query+"</u>");
+        let re = new RegExp("("+search_query.replace(" ","|")+")", 'g');
+        question.innerHTML = question.innerHTML.replace(re,"<u>$1</u>");
 
         div.appendChild(question)
         question.classList.add("question")
 
         document.getElementById("output").appendChild(div)
-    }
-
-    function httpGet(theUrl) {
-        var xmlHttp = new XMLHttpRequest();
-        xmlHttp.open("GET", theUrl, false); // false for synchronous request
-        xmlHttp.send(null);
-        return xmlHttp.responseText;
     }
 </script>
 

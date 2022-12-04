@@ -16,7 +16,7 @@ class MyServer(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header("Content-type", "text/html")
             self.end_headers()
-            with open("D:/Programmeren/Hulpprogramma/Scheikunde/Vragen_generator/index.html", encoding='utf-8') as file:
+            with open("index.html", encoding='utf-8') as file:
                 self.wfile.write(bytes(file.read(), 'utf-8'))
         elif self.path[:4] == '/api':
             self.send_response(200)
@@ -36,9 +36,8 @@ class MyServer(BaseHTTPRequestHandler):
         else:
             self.send_response(404)
 
-
-if __name__ == "__main__":
-    questions.Database.location = 'D:/Programmeren/Hulpprogramma/Scheikunde/Vragen_generator/questions.db'    
+def main():
+    questions.Database.location = 'questions.db'    
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Server started http://%s:%s" % (hostName, serverPort))
 
@@ -49,3 +48,6 @@ if __name__ == "__main__":
 
     webServer.server_close()
     print("Server stopped.")
+
+if __name__ == "__main__":
+    main()

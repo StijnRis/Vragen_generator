@@ -7,7 +7,7 @@ import re
 import sqlite3
 
 class Database():
-    location = 'D:/Programmeren/Hulpprogramma/Scheikunde/Vragen_generator/test.db'
+    location = 'test.db'
 
 class Question:
     @staticmethod
